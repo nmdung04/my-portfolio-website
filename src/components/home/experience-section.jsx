@@ -6,8 +6,8 @@ export function ExperienceSection({ items }) {
     <section id="experience" className="space-y-10">
       <SectionHeading
         eyebrow="Experience"
-        title="Selected roles and impact"
-        description="Blending designer empathy with developer execution to keep momentum high."
+        title="Hands-on roles that shaped my craft"
+        description="Each role nudged me to learn fast, document clearly, and keep teammates moving in the same direction."
       />
       <div className="space-y-6">
         {items.map((item) => (

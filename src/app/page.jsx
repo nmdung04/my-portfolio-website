@@ -7,6 +7,7 @@ import { HomeFooter } from "@/components/home/footer";
 import { ProjectsSection } from "@/components/home/projects-section";
 import { SkillsSection } from "@/components/home/skills-section";
 import { TopNav } from "@/components/home/top-nav";
+import { TechIcons } from "@/components/ui/icons";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <SkillsSection skills={SKILLS} />
         <ContactSection socials={SOCIAL_LINKS} />
         <HomeFooter />
+        
       </div>
     </div>
   );

@@ -7,8 +7,8 @@ export function ProjectsSection({ projects }) {
     <section id="projects" className="space-y-10">
       <SectionHeading
         eyebrow="Projects"
-        title="A few favorites"
-        description="Every build balances user insight, motion, and maintainable front end architecture."
+        title="Projects that stretched my front-end muscles"
+        description="Each build started as a real problem from classmates or mentors and became a playground for motion, performance, and thoughtful UI systems."
       />
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((project) => (
